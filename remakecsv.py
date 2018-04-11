@@ -1,68 +1,96 @@
 # This Python file uses the following encoding: utf-8
 
-
 import csv
-with open('work.csv', 'rb') as f:
-    reader = csv.reader(f, delimiter=';')
-    cVrNumb = ''
-    cVrLine = ''
-    currentTotalSum = 0
-    countVrWithSame = 1
-    allLines = []
-    allLines.append('Vernr;Bokföringsdatum;Registreringsdatum;Konto;Benämning;Ks;Projnr;Verifikationstext;Transaktionsinfo;Debet;Kredit\r\n')
-    for rowNbr, row in enumerate(reader):
-        if rowNbr >= 2 :
-            '''
-            print ''
-            print row
-            for v in row:
-                print v,
+import colnames
 
-            print ''
-            print 'After'
-            print ''
-            '''
+def func():
+    pass
+
+
+def main():
+    file_name = 'Report_20180411_0808.csv'
+
+    with open(file_name, 'rb') as f:
+        reader = csv.reader(f, delimiter=';')
+        out = csv.writer(open("myfile.csv","w"), delimiter='\t', lineterminator='\r\n')
+        writeHeaders(out)
+
+        cVrNumb = ''
+        cVrLine = {}
+        totalSum = 0
+        countVrWithSame = 1                
+        for rowNbr, row in enumerate(reader):
+            if rowNbr <= 1:
+                continue
             # Do we have same ver number?, if yes continue adding info to the string and the total sum
-            # If not, change currentVrLine, create new string and currentTotalSum to zero
+            # If not, change currentVrLine, create new string and totalSum to zero
+            
             for i, val in enumerate(row):
                 if i == 0: #Vernum
-                    if val != cVrNumb and cVrNumb != '':
-                        allLines.append(cVrLine +  '\r\n')
-                        cVrNumb = val # Update the current vr number
-                        cVrLine = val # Update the current string to empty it
-                        currentTotalSum = 0
+                    if rowNbr == 2:
+                        cVrNumb = val
+                        cVrLine = {}
+                        cVrLine[colnames.vernr] = val
+                        totalSum = 0
+                        countVrWithSame = 1
+                    elif val != cVrNumb:
+                        write(totalSum, cVrLine, out)
+                        cVrNumb = val
+                        cVrLine = {}
+                        cVrLine[colnames.vernr] = val
+                        totalSum = 0
                         countVrWithSame = 1
                     else:
                         countVrWithSame += 1
-                if i == 1: #Bokföringsdatum
-                    cVrLine += ';' + val
-                if i == 2: #Registreringsdatum
-                    cVrLine += ';' + val
+                if i == 1 and countVrWithSame == 1: #Bokföringsdatum
+                    cVrLine[colnames.bok] = val
+                if i == 2 and countVrWithSame == 1: #Registreringsdatum
+                    cVrLine[colnames.reg] = val
                 if i == 3: #Konto
-                    cVrLine += ';' + val
+                    cVrLine[colnames.konto + str(countVrWithSame)] = val
                 if i == 4: #Benämning
-                    cVrLine += ';' + val
+                    cVrLine[colnames.ben + str(countVrWithSame)] = val                
                 if i == 5: #Kostnadsställe (Ks)
-                    cVrLine += ';' + val
-                if i == 6: #Projnr
-                    cVrLine += ';' + val
-                if i == 7: #Verifikationstext
-                    cVrLine += ';' + val
-                if i == 8: #Transaktionsinfo
-                    cVrLine += ';' + val
+                    cVrLine[colnames.ks + str(countVrWithSame)] = val
+                if i == 6 and countVrWithSame == 1: #Projnr
+                    cVrLine[colnames.projnr] = val
+                if i == 7 and countVrWithSame == 1: #Verifikationstext
+                    cVrLine[colnames.vertext] = val
+                if i == 8 and countVrWithSame == 1: #Transaktionsinfo
+                    cVrLine[colnames.traninf] = val
                 if i == 9: #Debet
                     val = val.replace(',','.')
                     if val != '':
-                        currentTotalSum += float(val)
-                    cVrLine += ';' + val
+                        totalSum += float(val)
+                    cVrLine[colnames.debet + str(countVrWithSame)] = val
                 if i == 10: #Kredit
-                    cVrLine += ';' + val   
-    allLines.append(cVrLine)
-    out = csv.writer(open("myfile.csv","w"), delimiter=';',quoting=csv.QUOTE_ALL, lineterminator='\r\n')
-    out.writerow(allLines)
+                    cVrLine[colnames.kredit + str(countVrWithSame)] = val
+        write(totalSum, cVrLine, out)
 
+def write(totalSum, cVrLine, out):
 
-                                
+    array = []
+    array.append(cVrLine.get(colnames.vernr) if cVrLine.get(colnames.vernr) else '')
+    array.append(cVrLine.get(colnames.vertext) if cVrLine.get(colnames.vertext) else '')
+    array.append(cVrLine.get(colnames.traninf) if cVrLine.get(colnames.traninf) else '')
+    array.append(cVrLine.get(colnames.bok) if cVrLine.get(colnames.bok) else '')
+    array.append(cVrLine.get(colnames.reg) if cVrLine.get(colnames.reg) else '')
+    array.append(cVrLine.get(colnames.projnr) if cVrLine.get(colnames.projnr) else '')
 
+    for name in [colnames.konto,colnames.ben, colnames.ks, colnames.debet, colnames.kredit]:
+        for j in range(1,7):
+            array.append(cVrLine.get(name + str(j)) if cVrLine.get(name + str(j)) else '')
+    array.append(totalSum)
+    out.writerow(array)
 
+def writeHeaders(out):
+    ret = [colnames.vernr, colnames.vertext, colnames.traninf, colnames.bok, colnames.reg, colnames.projnr]
+    for name in [colnames.konto,colnames.ben, colnames.ks, colnames.debet, colnames.kredit]:
+        for j in range(1,7):
+            ret.append(name + str(j))
+    ret.append(colnames.total)
 
+    out.writerow(ret)
+
+if __name__ == '__main__':
+    main()

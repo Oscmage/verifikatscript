@@ -1,2 +1,387 @@
-"Vernr;Bokföringsdatum;Registreringsdatum;Konto;Benämning;Ks;Projnr;Verifikationstext;Transaktionsinfo;Debet;Kredit
-";";2017-07-04;2017-10-10;1920;Bankkonto StyrIT;10;;PL stöd inspirationsföreläsning;;7000.00;;2017-07-05;2017-10-10;1920;Bankkonto StyrIT;10;;FB - Shurgard för Juli;;;552,00"
+Vernr	Verifikationstext	Transaktionsinfo	Bokföringsdatum	Registreringsdatum	Projnr	Konto1	Konto2	Konto3	Konto4	Konto5	Konto6	Benämning1	Benämning2	Benämning3	Benämning4	Benämning5	Benämning6	Ks1	Ks2	Ks3	Ks4	Ks5	Ks6	Debet1	Debet2	Debet3	Debet4	Debet5	Debet6	Kredit1	Kredit2	Kredit3	Kredit4	Kredit5	Kredit6	Total
+A1	PL stöd inspirationsföreläsning		2017-07-04	2017-10-10		1790	1920					Övriga förutbetalda kostnader och upplupna intäkter	Bankkonto StyrIT					10	10						7000.00					7000,00						7000.0
+A2	FB - Shurgard för Juli		2017-07-05	2017-10-10		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						552.00					552,00						552.0
+A3	FB - Sunfleet Juni		2017-07-05	2017-10-21		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						2502.07					2502,07						2502.07
+A4	FB - Fortnox mrcIT		2017-07-05	2017-10-10		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						912.00					912,00						912.0
+A5	FB - Fortnox snIT		2017-07-05	2017-10-10		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						912.00					912,00						912.0
+A6	FB - Fortnox FanbärerIT		2017-07-05	2017-10-10		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						912.00					912,00						912.0
+A7	FB - Fortnox sexIT årsavgift		2017-07-05	2017-10-10		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						912.00					912,00						912.0
+A8	FI - Modulspons från Rekryt	FI - Modulspons från Rekryt	2017-07-06	2017-10-15		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10					900.00							900,00					900.0
+A9	MF - Lackstänger till Alumnimiddag	MF - Lackstänger till Alumnimiddag	2017-07-11	2017-10-15		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						1371.00					1371,00						1371.0
+A10	MF - Kuvertavgifter  Alumnimiddag		2017-07-11	2017-10-15		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						325.00					325,00						325.0
+A11	FB - Diplom till pedagogiska priset	FB - Diplom till pedagogiska priset	2017-07-12	2017-10-15		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						150.00					150,00						150.0
+A12	MF - Alumnimiddag fler kuvertavgifter	MF - Alumnimiddag fler kuvertavgifter	2017-07-12	2017-10-15		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						202.00					202,00						202.0
+A13	FM - Domänavgift för Chalmers.it	FM - Domänavgift för Chalmers.it	2017-07-12	2017-10-21		2440	4020					Leverantörsskulder	Inköp e-tjänster					10	10						1708.80					1708,80						1708.8
+A14	FM - Shurgard för Augusti	FM - Shurgard för Augusti	2017-07-17	2017-10-15		2440	4410					Leverantörsskulder	Kostnad förvaring					10	10						552.00					552,00						552.0
+A15	FB - Domänavgift för Chalmers.it	FB - Domänavgift för Chalmers.it	2017-07-18	2017-10-21		1618	1920	2440				Fordringar Medlemmar	Bankkonto StyrIT	Leverantörsskulder				10	10	10				5.91		1708.80					1714,71					1714.71
+A16	Kunskapsprov ordförande 17/18	Kunskapsprov ordförande 17/18	2017-07-18	2017-10-21		1920	4521					Bankkonto StyrIT	Kostnader Kunskapsprov Ordförande					10	10						1200.00					1200,00						1200.0
+A17	FB - Shurgard för Augusti	FB - Shurgard för Augusti	2017-07-18	2017-10-21		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A18	MU - Lackstänger till Alumnimiddag		2017-07-19	2017-10-21		2440	2918					Leverantörsskulder	Skulder medlemmar					10	10					1371.00							1371,00					1371.0
+A19	MU - Kuvertavgifter Alumnimiddag	MU - Kuvertavgifter Alumnimiddag	2017-07-19	2017-10-21		2440	2918					Leverantörsskulder	Skulder medlemmar					10	10					325.00							325,00					325.0
+A20	MU - Alumnimiddag Fler Kuvertavgifter	MU - Alumnimiddag Fler Kuvertavgifter	2017-07-19	2017-10-21		2440	2918					Leverantörsskulder	Skulder medlemmar					10	10					202.00							202,00					202.0
+A21	Serveringstillstånd för NollKIT	Serveringstillstånd för NollKIT	2017-07-28	2017-10-21		1920	4213					Bankkonto StyrIT	Kostnader Serveringstillstånd					10	10						600.00					600,00						600.0
+A22	MB - Alumnimiddag fler kuvertavgifter	MB - Alumnimiddag fler kuvertavgifter	2017-08-01	2017-10-21		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						202.00					202,00						202.0
+A23	MB - AM Sigillack	MB - AM Sigillack	2017-08-01	2017-10-21		1920	2990	2990				Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter	Övriga upplupna kostnader och förutbetalda intäkter				10	10	10					1034.26	124.05				1158,31						1158.31
+A24	MB - AM Domänavgift alumnimiddag.it	MB - AM Domänavgift alumnimiddag.it	2017-08-01	2017-10-21		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						348.33					348,33						348.33
+A25	IZettle-intäkter för CM	IZettle-intäkter för CM	2017-08-01	2017-10-21		1920	2911					Bankkonto StyrIT	Skulder sexIT					10	10						8264.15					8264,15						8264.15
+A26	MB - Lackstänger till Alumnimiddag	MB - Lackstänger till Alumnimiddag	2017-08-01	2017-10-21		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						1371.00					1371,00						1371.0
+A27	MB - Kuvertavgifter Alumnimiddag	MB - Kuvertavgifter Alumnimiddag	2017-08-01	2017-10-21		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						325.00					325,00						325.0
+A28	Serveringstillstånd PRIT	Serveringstillstånd PRIT	2017-08-07	2017-10-21		1920	4213					Bankkonto StyrIT	Kostnader Serveringstillstånd					10	10						400.00					400,00						400.0
+A29	MU - Teambuilding StyrIT Minigolf	MU - Teambuilding StyrIT Minigolf	2017-08-09	2017-10-21		2918	4510					Skulder medlemmar	Kostnader Intern Representation					10	10						480.00					480,00						480.0
+A30	FM - Sunfleet för Juli	FM - Sunfleet för Juli	2017-07-31	2017-10-21		2440	5610					Leverantörsskulder	Kostnader bil					10	10						1250.00					1250,00						1250.0
+A31	FB - Sunfleet för Juli	FB - Sunfleet för Juli	2017-08-08	2017-10-21		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						1250.00					1250,00						1250.0
+A32	Serveringstillstånd MRCIT	Serveringstillstånd MRCIT	2017-08-11	2017-10-21		1920	4213					Bankkonto StyrIT	Kostnader Serveringstillstånd					10	10						600.00					600,00						600.0
+A33	MU - Mat en dag med StyrIT	MU - Mat en dag med StyrIT	2017-08-11	2017-10-21		2918	4520					Skulder medlemmar	Kostnader Föreningsutbildningar					10	10						600.43					600,43						600.43
+A34	Återbetalning av lån NollKIT	Återbetalning av lån NollKIT	2017-08-14	2017-10-21		1612	1920					Fordringar NollKIT	Bankkonto StyrIT					10	10						20000.00					20000,00						20000.0
+A35	MU - Jourtelefon StyrIT	MU - Jourtelefon StyrIT	2017-08-14	2017-10-21		2918	4910					Skulder medlemmar	Övriga Kostnader StyrIT					10	10						249.90					249,90						249.9
+A36	Mottagsningsavgifter Swish	Mottagsningsavgifter Swish	2017-08-16	2017-10-28		1930	2912	2919				Bankkonto Swish	Skulder NollKIT	Skulder Swish				10	10	10				26600.00							26486,00	114,00				26600.0
+A37	Inkomster Swish	Inkomster Swish	2017-08-17	2017-10-28		1930	2912	2919	3215			Bankkonto Swish	Skulder NollKIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			6160.00							4980,50	82,50	1097,00			6160.0
+A38	Mottagninsavgift via Swish	Mottagninsavgift via Swish	2017-08-17	2017-10-28		1930	2912					Bankkonto Swish	Skulder NollKIT					10	10						348.50					348,50						348.5
+A39	Mottagninsavgifter via Swish	Mottagninsavgifter via Swish	2017-08-17	2017-10-28		1930	2912					Bankkonto Swish	Skulder NollKIT					10	10						26486.00					26486,00						26486.0
+A40	Mottagninsavgifter via Swish 	Mottagninsavgifter via Swish	2017-08-17	2017-10-28		1930	2912					Bankkonto Swish	Skulder NollKIT					10	10						697.00					697,00						697.0
+A41	FM - Shurgard för September		2017-08-17	2017-10-28		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						552.00					552,00						552.0
+A42	Inkomster Swish	Inkomster Swish	2017-08-18	2017-10-28		1930	2912	2919	3215			Bankkonto Swish	Skulder NollKIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			6360.00							1609,00	63,00	4688,00			6360.0
+A43	BI - Modulsponsring och Alumnibiljetter		2017-08-21	2017-10-28		1920	2912	3215				Bankkonto StyrIT	Skulder NollKIT	Intäkter Alumnimiddag				10	10	10				4000.00							2500,00	1500,00				4000.0
+A44	Inkomst Swish	Inkomst Swish	2017-08-21	2017-10-28		1930	2912	2919	3215			Bankkonto Swish	Skulder NollKIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			6350.00							2018,50	42,00	4289,50			6350.0
+A45	Inkomst Swish Alumnimiddag		2017-08-22	2017-10-28		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				700.00							1,50	698,50				700.0
+A46	Överföring för Mottagningsavgifter från Swish	Överföring för Mottagningsavgifter från Swish	2017-08-22	2017-10-28		1930	2912					Bankkonto Swish	Skulder NollKIT					10	10						697.00					697,00						697.0
+A47	Överföring Mottagningsavgift Swish	Överföring Mottagningsavgift Swish	2017-08-22	2017-10-28		1930	2912					Bankkonto Swish	Skulder NollKIT					10	10						348.50					348,50						348.5
+A48	Överföring för Spökfortet	Överföring för Spökfortet	2017-08-22	2017-10-28		1930	2912					Bankkonto Swish	Skulder NollKIT					10	10						912.00					912,00						912.0
+A49	MB - Äskning FlashIT Hoodies	MB - Äskning FlashIT Hoodies	2017-08-22	2017-10-28		1920	2990					Bankkonto StyrIT	Övriga upplupna kostnader och förutbetalda intäkter					10	10						1796.33					1796,33						1796.33
+A50	MU - Sektionsmötesfika Maxi MV2	MU - Sektionsmötesfika Maxi MV2	2017-08-22	2017-10-28		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						242.25					242,25						242.25
+A51	Inkomster Swish Alumnimiddag	Inkomster Swish Alumnimiddag	2017-08-23	2017-10-28		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				1100.00							3,00	1097,00				1100.0
+A52	MU - Sektionsmötesmat MV2	MU - Sektionsmötesmat MV2	2017-08-23	2017-10-28		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						3150.00					3150,00						3150.0
+A53	MU - Sektionsmötesfika Store MV2		2017-08-23	2017-10-28		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						77.00					77,00						77.0
+A54	Inkomst Swish Alumnimiddag	Inkomst Swish Alumnimiddag	2017-08-24	2017-10-28		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				700.00							1,50	698,50				700.0
+A55	BI - Alumnimiddagsbiljett	BI - Alumnimiddagsbiljett	2017-08-24	2017-10-28		1920	3215					Bankkonto StyrIT	Intäkter Alumnimiddag					10	10					700.00							700,00					700.0
+A56	FM - Alumnimiddagsinbjudningar 	FM - Alumnimiddagsinbjudningar	2017-08-24	2017-10-28		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						1431.00					1431,00						1431.0
+A57	Inkomst Swish Alumnimiddagsbiljetter	Inkomst Swish Alumnimiddagsbiljetter	2017-08-28	2017-10-31		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				4700.00							12,00	4688,00				4700.0
+A58	BI - Alumnimiddagsbiljetter	BI - Alumnimiddagsbiljetter	2017-08-28	2017-10-31		1920	3215					Bankkonto StyrIT	Intäkter Alumnimiddag					10	10					700.00							700,00					700.0
+A59	Inkomst Swish Alumnimiddagsbiljetter	Inkomst Swish Alumnimiddagsbiljetter	2017-08-29	2017-10-31		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				1800.00							4,50	1795,50				1800.0
+A60	iZettle delvis utbetalning för försäljning 2017-08-21	iZettle delvis utbetalning för försäljning 2017-08-21	2017-08-29	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						128.05					128,05						128.05
+A61	iZettle delvis utbetalning för 2017-08-17	iZettle delvis utbetalning för 2017-08-17	2017-08-29	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						157.60					157,60						157.6
+A62	iZettle utbetalning för försäljning 2017-08-28	iZettle utbetalning för försäljning 2017-08-28	2017-08-29	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						3329.30					3329,30						3329.3
+A63	iZettle utbetalning för försäljning den 2017-08-29	iZettle utbetalning för försäljning den 2017-08-29	2017-08-30	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						1063.80					1063,80						1063.8
+A64	Utbetalning för inköp under rustveckan	Utbetalning för inköp under rustveckan	2017-08-30	2017-11-01		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						8527.48					8527,48						8527.48
+A65	iZettle utbetalning för försäljning den 2017-08-23	iZettle utbetalning för försäljning den 2017-08-23	2017-08-30	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						4314.30					4314,30						4314.3
+A66	iZettle utbetalning för försäljning den 2017-08-24	iZettle utbetalning för försäljning den 2017-08-24	2017-08-30	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						2314.75					2314,75						2314.75
+A67	iZettle delvis utbetalning av försäljning den 2017-08-17	iZettle delvis utbetalning av försäljning den 2017-08-17	2017-08-30	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						2521.60					2521,60						2521.6
+A68	Swish utbetalning för försäljning av Mottagningssittning	Swish utbetalning för försäljning av Mottagningssittning	2017-08-30	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						5448.00					5448,00						5448.0
+A69	Utbetalning av lån till MRCIT	Utbetalning av lån till MRCIT	2017-08-30	2017-11-01		1920	1616					Bankkonto StyrIT	Fordringar MRCIT					10	10						28000.00					28000,00						28000.0
+A70	FB - Shurgard för September	FB - Shurgard för September	2017-08-30	2017-11-01		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A71	FB - Alumnimiddagsinbjudningar	FB - Alumnimiddagsinbjudningar	2017-08-30	2017-11-01		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						1431.00					1431,00						1431.0
+A72	MU - Tårta phaddergruppsvinnare	MU - Tårta phaddergruppsvinnare	2017-08-30	2017-11-01		2918	4330					Skulder medlemmar	Kostnader Sektionsmöten					10	10						858.00					858,00						858.0
+A73	Inkomster Swish	Inkomster Swish	2017-08-31	2017-11-01		1930	2910	2919	3215			Bankkonto Swish	Skulder PRIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			4135.00							3163,50	273,00	698,50			4135.0
+A74	iZettle delvis utbetalning för försäljning den 2017-08-21	iZettle delvis utbetalning för försäljning den 2017-08-21	2017-08-31	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						8362.65					8362,65						8362.65
+A75	Betalning av Tre Kronor försäkring för sektionen	Betalning av Tre Kronor försäkring för sektionen	2017-08-31	2017-11-01		1920	6571					Bankkonto StyrIT	Försäkringar					10	10						3109.00					3109,00						3109.0
+A76	BI - Studentbiljett för Alumnimiddagen	BI - Studentbiljett för Alumnimiddagen	2017-08-31	2017-11-01		1920	3215					Bankkonto StyrIT	Intäkter Alumnimiddag					10	10					400.00							400,00					400.0
+A77	FM - Sunfleet Augusti		2017-08-31	2017-11-01		2440	1510	1610	1611	1612	5610	Leverantörsskulder	Kundfordringar	Fordringar PRIT	Fordringar sexIT	Fordringar NollKIT	Kostnader bil	10	10	10	10	10	10		285.56	1247.33	2618.13	1116.38	1250.00	6517,40						6517.400000000001
+A78	Inkomst Swish	Inkomst Swish	2017-09-01	2017-11-01		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				1065.00							972,00	93,00				1065.0
+A79	Inkomst Swish Alumnimiddagsbiljetter	Inkomst Swish Alumnimiddagsbiljetter	2017-09-04	2017-11-01		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				800.00							3,00	797,00				800.0
+A80	Inbetalning iZettle för augusti	Inbetalning iZettle för augusti	2017-09-04	2017-11-01		1920	2910	2911	2912	2921		Bankkonto StyrIT	Skulder PRIT	Skulder sexIT	Skulder NollKIT	Skulder FanbärerIT		10	10	10	10	10		48948.55							19896,35	1654,80	25649,37	1748,03		48948.55
+A81	Inkomst Swish Alumnimiddagsbiljett	Inkomst Swish Alumnimiddagsbiljett	2017-09-05	2017-11-01		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				700.00							1,50	698,50				700.0
+A82	Inkomst Swish Alumnimiddagsbiljetter	Inkomst Swish Alumnimiddagsbiljetter	2017-09-06	2017-11-01		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				1400.00							3,00	1397,00				1400.0
+A83	Inkomst Swish våfflor pubrunda LP1	Inkomst Swish våfflor pubrunda LP1	2017-09-07	2017-11-01		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				3370.00							3143,50	226,50				3370.0
+A84	Inkomst Swish Alumnimiddagbiljetter	Inkomst Swish Alumnimiddagbiljetter	2017-09-08	2017-11-01		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				5800.00							15,00	5785,00				5800.0
+A85	Serveringstillstånd för hösten	Serveringstillstånd för hösten	2017-09-08	2017-11-01		1920	4213					Bankkonto StyrIT	Kostnader Serveringstillstånd					10	10						800.00					800,00						800.0
+A86	FM - Fortnox September	FM - Fortnox September	2017-09-10	2017-11-01		2440	6572					Leverantörsskulder	Kostnader Bokföringsprogram					10	10						2370.00					2370,00						2370.0
+A87	Inkomster Swish Alumnimiddagsbiljetter och Sittning	Inkomster Swish Alumnimiddagsbiljetter och Sittning	2017-09-11	2017-11-01		1930	2911	2919	3215			Bankkonto Swish	Skulder sexIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			3260.00							354,00	13,50	2892,50			3260.0
+A88	iZettle utbetalning för försäljning 2017-08-21 och 2017-08-27	iZettle utbetalning för försäljning 2017-08-21 och 2017-08-27	2017-09-11	2017-11-01		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						2137.45					2137,45						2137.45
+A89	iZettle delvis utbetalning för försäljning den 2017-09-05	iZettle delvis utbetalning för försäljning den 2017-09-05	2017-09-11	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						4984.10					4984,10						4984.1
+A90	iZettle delvis utbetalning för 2017-08-31	iZettle delvis utbetalning för 2017-08-31	2017-09-11	2017-11-01		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						17758.90					17758,90						17758.9
+A91	iZettle delvis utbetalning för 2017-08-04 och 2017-08-05	iZettle delvis utbetalning för 2017-08-04 och 2017-08-05	2017-09-11	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						14981.85					14981,85						14981.85
+A92	iZettle utbetalning för 2017-09-01	iZettle utbetalning för 2017-09-01	2017-09-11	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						2629.90					2629,90						2629.9
+A93	Sponsorpengar från Unionen och Sveriges Ingenjörer	Sponsorpengar från Unionen och Sveriges Ingenjörer	2017-09-11	2017-11-01		1920	1612					Bankkonto StyrIT	Fordringar NollKIT					10	10						8000.00					8000,00						8000.0
+A94	iZettle utbetalning för 2017-08-16	iZettle utbetalning för 2017-08-16	2017-09-11	2017-11-01		1920	2911					Bankkonto StyrIT	Skulder sexIT					10	10						1654.80					1654,80						1654.8
+A95	iZettle delvis utbetalning för 2017-08-31	iZettle delvis utbetalning för 2017-08-31	2017-09-11	2017-11-01		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						3457.35					3457,35						3457.35
+A96	FB - Sunfleet Augusti	FB - Sunfleet Augusti	2017-09-11	2017-11-01		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						6517.40					6517,40						6517.4
+A97	BI - Alumnimiddagsbiljetter och inkomst PRIT	BI - Alumnimiddagsbiljetter och inkomst PRIT	2017-09-11	2017-11-01		1920	2910	3215				Bankkonto StyrIT	Skulder PRIT	Intäkter Alumnimiddag				10	10	10				1450.00							50,00	1400,00				1450.0
+A98	FM - Grant Thornton Augusti		2017-09-11	2017-11-01		2440	6573					Leverantörsskulder	Kostnader Extern Ekonomisk Rådgivning					10	10						28156.00					28156,00						28156.0
+A99	MU - Spotify September	MU - Spotify September	2017-08-30	2017-11-09		2918	4323					Skulder medlemmar	Kostnader Spotify					10	10						99.00					99,00						99.0
+A100	FM - PU-biljetter för utlottning under sektionsmöten	FM - PU-biljetter för utlottning under sektionsmöten	2017-09-12	2017-11-09		2440	4330					Leverantörsskulder	Kostnader Sektionsmöten					10	10						250.00					250,00						250.0
+A101	Inkomst Swish 	Inkomst Swish	2017-09-12	2017-11-09		1930	2919	2911	3215			Bankkonto Swish	Skulder Swish	Skulder sexIT	Intäkter Alumnimiddag			10	10	10	10			1490.00							4,50	88,50	1397,00			1490.0
+A102	Inkomst Swish	Inkomst Swish	2017-09-13	2017-11-09		1930	2919	2911	3215			Bankkonto Swish	Skulder Swish	Skulder sexIT	Intäkter Alumnimiddag			10	10	10	10			2780.00							10,50	177,00	2592,50			2780.0
+A103	P.R.I.T.  Delvis Inbetalning Sunfleet för Augusti	P.R.I.T.  Delvis Inbetalning Sunfleet för Augusti	2017-09-14	2017-11-09		1920	1610					Bankkonto StyrIT	Fordringar PRIT					10	10					1060.45							1060,45					1060.45
+A104	Inkomst Swish	Inkomst Swish	2017-09-14	2017-11-09		1930	2919	2911	3215			Bankkonto Swish	Skulder Swish	Skulder sexIT	Intäkter Alumnimiddag			10	10	10	10			1490.00							4,50	88,50	1397,00			1490.0
+A105	sexIT inbetalning för Sunfleet Augusti	sexIT inbetalning för Sunfleet Augusti	2017-09-15	2017-11-10		1920	1611					Bankkonto StyrIT	Fordringar sexIT					10	10					2618.13							2618,13					2618.13
+A106	BI - Alumnimiddagsbiljett	BI - Alumnimiddagsbiljett	2017-09-15	2017-11-10		1920	3215					Bankkonto StyrIT	Intäkter Alumnimiddag					10	10					700.00							700,00					700.0
+A107	Inkomst Swish 	Inkomst Swish	2017-09-15	2017-11-10		1930	2919	3215	2911			Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag	Skulder sexIT			10	10	10	10			490.00							4,50	397,00	88,50			490.0
+A108	Återbetalning för alumnimiddagsbiljett	Återbetalning för alumnimiddagsbiljett	2017-09-15	2017-11-10		1930	3215					Bankkonto Swish	Intäkter Alumnimiddag					10	10						700.00					700,00						700.0
+A109	Återbetalning för Alumnimiddagsbiljett för student	Återbetalning för Alumnimiddagsbiljett för student	2017-09-15	2017-11-10		1930	3215					Bankkonto Swish	Intäkter Alumnimiddag					10	10						400.00					400,00						400.0
+A110	BI - Alumnimiddagsbiljett	BI - Alumnimiddagsbiljett	2017-09-18	2017-11-10		1920	3215					Bankkonto StyrIT	Intäkter Alumnimiddag					10	10					700.00							700,00					700.0
+A111	FM - Shurgard för Oktober	FM - Shurgard för Oktober	2017-09-18	2017-11-10		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						552.00					552,00						552.0
+A112	Inkomst Swish	Inkomst Swish	2017-09-18	2017-11-10		1930	2911	2919	3215			Bankkonto Swish	Skulder sexIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			3260.00							255,50	13,50	2991,00			3260.0
+A113	Inkomst Swish Sittning	Inkomst Swish Sittning	2017-09-19	2017-11-10		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				3870.00							3805,50	64,50				3870.0
+A114	MB - Sektionsmötesfika Store MV2	MB - Sektionsmötesfika MV2 Store	2017-09-20	2017-11-10		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						77.00					77,00						77.0
+A115	MB - Mat en dag med StyrIT	MB - Mat en dag med StyrIT	2017-09-20	2017-11-10		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						600.43					600,43						600.43
+A116	MB - Tårta phaddergruppsvinnare	MB - Tårta phaddergruppsvinnare	2017-09-20	2017-11-10		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						858.00					858,00						858.0
+A117	Dubbel betalning av MU skärmar	Dubbel betalning av MU skärmar	2017-09-20	2017-11-11		1618	1920					Fordringar Medlemmar	Bankkonto StyrIT					10	10					2078.00							2078,00					2078.0
+A118	MB - Sektionsmötesfika Maxi MV2	MB - Sektionsmötesfika Maxi MV2	2017-09-20	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						242.25					242,25						242.25
+A119	iZettle utbetalning för försäljning 2017-08-18	iZettle utbetalning för försäljning 2017-08-18	2017-09-20	2017-11-11		1920	2921					Bankkonto StyrIT	Skulder FanbärerIT					10	10						1748.03					1748,03						1748.03
+A120	MB - Sektionsmötesmat MV2	MB - Sektionsmötesmat MV2	2017-09-20	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						3150.00					3150,00						3150.0
+A121	Utbetalning av modulsponspengar  som kom in på bankgirot	Utbetalning av modulsponspengar  som kom in på bankgirot	2017-09-20	2017-11-11		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						900.00					900,00						900.0
+A122	MB - Överlämning StyrIT		2017-09-20	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						2175.00					2175,00						2175.0
+A123	MB - Teambuilding StyrIT		2017-09-20	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						480.00					480,00						480.0
+A124	FB - Fortnox September	FB - Fortnox September	2017-09-20	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						2370.00					2370,00						2370.0
+A125	FB - Shurgard Oktober	FB - Shurgard Oktober	2017-09-20	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A126	FB - GT Augusti	FB - GT Augusti	2017-09-20	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						28156.00					28156,00						28156.0
+A127	FB - PU-biljetter för utlottning under sektionsmöten	FB - PU-biljetter för utlottning under sektionsmöten	2017-09-20	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						250.00					250,00						250.0
+A128	Inkomst Swish	Inkomst Swish	2017-09-20	2017-11-11		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				2060.00							2025,50	34,50				2060.0
+A129	Swish Månadsavgifter för Augusti	Swish Månadsavgifter för Augusti	2017-09-20	2017-11-11		1930	2919					Bankkonto Swish	Skulder Swish					10	10						702.00					702,00						702.0
+A130	Skuld till Skatteverket inbetald		2017-09-21	2017-11-11		1920	2510					Bankkonto StyrIT	Skatteskulder					10	10						887.00					887,00						887.0
+A131	Inkomst Swish Sittning	Inkomst Swish Sittning	2017-09-21	2017-11-11		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				630.00							619,50	10,50				630.0
+A132	Inkomst Swish Sittning	Inkomst Swish Sittning	2017-09-22	2017-11-11		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				450.00							442,50	7,50				450.0
+A133	Inkomst Swish Alumnimiddag	Inkomst Swish Alumnimiddag	2017-09-25	2017-11-11		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				1100.00							3,00	1097,00				1100.0
+A134	BI - Sunfleet DrawIT för Augusti	BI - Sunfleet DrawIT för Augusti	2017-09-26	2017-11-13		1920	1510					Bankkonto StyrIT	Kundfordringar					10	10					285.56							285,56					285.56
+A135	MU - Äskning PRIT Afterschool 3	MU - Äskning PRIT Afterschool 3	2017-09-26	2017-11-11		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						268.80					268,80						268.8
+A136	FM - AM Wijkanders	FM - AM Wijkanders	2017-09-26	2017-11-11		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						62550.00					62550,00						62550.0
+A137	MU - Äskning PRIT Afterschool 1	MU - Äskning PRIT Afterschool 1	2017-09-28	2017-11-11		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						511.90					511,90						511.9
+A138	Retur Swish Alumnimiddag	Retur Swish Alumnimiddag	2017-09-28	2017-11-11		1930	3215					Bankkonto Swish	Intäkter Alumnimiddag					10	10						700.00					700,00						700.0
+A139	MU - Äskning PRIT Afterschool 4		2017-09-28	2017-11-11		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						99.60					99,60						99.6
+A140	MU - Äskning PRIT Afterschool 2	MU - Äskning PRIT Afterschool 2	2017-09-28	2017-11-11		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						392.00					392,00						392.0
+A141	FM - Sunfleet September	FM - Sunfleet September	2017-09-30	2017-11-11		1610	1611	1612	1616	2440	5610	Fordringar PRIT	Fordringar sexIT	Fordringar NollKIT	Fordringar MRCIT	Leverantörsskulder	Kostnader bil	10	10	10	10	10	10	287.20	320.32	2440.02	179.38		1250.00					4476,92		4476.92
+A142	MU - Äskning Kanelbullensdag		2017-10-02	2017-11-11		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						131.70					131,70						131.7
+A143	FM - AM Sånghäften	FM - AM Sånghäften	2017-10-02	2017-11-11		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						619.00					619,00						619.0
+A144	inbetalning iZettle för September	inbetalning iZettle för September	2017-10-03	2017-11-11		1920	2910	2912	2916			Bankkonto StyrIT	Skulder PRIT	Skulder NollKIT	Skulder MRCIT			10	10	10	10			29722.06							797,74	22595,85	6328,47			29722.06
+A145	MU - Fika sektionsmöte LP1	MU - Fika sektionsmöte LP1	2017-10-04	2017-11-11		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						264.20					264,20						264.2
+A146	MU - Sektionsmötesmat LP1 Extra	MU - Sektionsmötesmat LP1 Extra	2017-10-04	2017-11-11		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						180.00					180,00						180.0
+A147	MU - Spotify Oktober	MU - Spotify Oktober	2017-10-06	2017-11-11		2918	4323					Skulder medlemmar	Kostnader Spotify					10	10						99.00					99,00						99.0
+A148	FM - AM Veragücklarna	FM - AM Veragücklarna	2017-10-08	2017-11-11		2440	4215					Leverantörsskulder	Kostnader Alumnimiddag					10	10						3000.00					3000,00						3000.0
+A149	Inköp - Mat för kassörskväll LP1	Inköp - Mat för kassörskväll LP1	2017-10-10	2017-11-11		1920	4522					Bankkonto StyrIT	Kostnader Kassörskväll och Ordförandemöten					10	10						146.54					146,54						146.54
+A150	BI - Till PRIT från Fysik	BI - Till PRIT från Fysik	2017-10-10	2017-11-11		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10					100.00							100,00					100.0
+A151	Inkomst Swish Oktobersits 		2017-10-10	2017-11-11		1930	2919	2910				Bankkonto Swish	Skulder Swish	Skulder PRIT				10	10	10				1421.00							25,50	1395,50				1421.0
+A152	Inköp - Mat för kassörskväll LP1 Stöd	Inköp - Mat för kassörskväll LP1 Stöd	2017-10-11	2017-11-11		1920	4522					Bankkonto StyrIT	Kostnader Kassörskväll och Ordförandemöten					10	10						46.31					46,31						46.31
+A153	Inkomst Swish Oktobersits	Inkomst Swish Oktobersits	2017-10-11	2017-11-11		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				1169.00							1149,50	19,50				1169.0
+A154	Inkomst Swish Oktobersits	Inkomst Swish Oktobersits	2017-10-12	2017-11-11		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				1070.00							1052,00	18,00				1070.0
+A155	Inkomst Swish Oktobersits	Inkomst Swish Oktobersits	2017-10-13	2017-12-12		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				1150.00							1130,50	19,50				1150.0
+A156	MB - Äskning Kanelbullensdag		2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						131.70					131,70						131.7
+A157	MB - Äskning PRIT Afterschool 3		2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						268.80					268,80						268.8
+A158	MB - Äskning PRIT Afterschool 4		2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						99.60					99,60						99.6
+A159	MB - Sektionsmötesmat LP1 Extra		2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						180.00					180,00						180.0
+A160	MB - Äskning PRIT Afterschool 2		2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						392.00					392,00						392.0
+A161	MB - Äskning PRIT Afterschool 1	MB - Äskning PRIT Afterschool 1	2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						511.90					511,90						511.9
+A162	MB - Jourtelefon StyrIT	MB - Jourtelefon StyrIT	2017-10-13	2017-11-11		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						249.90					249,90						249.9
+A163	FB - Sunfleet September	FB - Sunfleet September	2017-10-13	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						4476.92					4476,92						4476.92
+A164	FB- AM Sånghäften	FB- AM Sånghäften	2017-10-13	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						619.00					619,00						619.0
+A165	FB - AM Wijkanders	FB - AM Wijkanders	2017-10-13	2017-11-11		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						62550.00					62550,00						62550.0
+A166	Inkomst Swish Oktobersits och Alumnimiddag	Inkomst Swish Oktobersits och Alumnimiddag	2017-10-16	2017-11-11		1930	2910	2919	3215			Bankkonto Swish	Skulder PRIT	Skulder Swish	Intäkter Alumnimiddag			10	10	10	10			1180.00							75,50	7,50	1097,00			1180.0
+A167	FM  - Chalmers Försäkring	FM  - Chalmers Försäkring	2017-10-16	2017-11-11		2440	6571					Leverantörsskulder	Försäkringar					10	10						2400.00					2400,00						2400.0
+A168	FM - GT September	FM - GT September	2017-10-16	2017-11-11		2440	6573					Leverantörsskulder	Kostnader Extern Ekonomisk Rådgivning					10	10						55513.00					55513,00						55513.0
+A169	MU - Fika ordförandemöte 1 LP1	MU - Fika ordförandemöte 1 LP1	2017-09-14	2017-11-13		2918	4522					Skulder medlemmar	Kostnader Kassörskväll och Ordförandemöten					10	10						173.76					173,76						173.76
+A170	MU - Fika ordförandemöte 2 LP1	MU - Fika ordförandemöte 2 LP1	2017-10-12	2017-11-13		2918	4522					Skulder medlemmar	Kostnader Kassörskväll och Ordförandemöten					10	10						87.78					87,78						87.78
+A171	FM - Shurgard November	FM - Shurgard November	2017-10-17	2017-11-13		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						552.00					552,00						552.0
+A172	MU - Äskning Inpirationsföreläsning att sitta i en kommittée	MU - Äskning Inpirationsföreläsning att sitta i en kommittée	2017-10-17	2017-11-13		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						332.55					332,55						332.55
+A173	MU - Överlämning valberedning	MU - Överlämning valberedning	2017-10-17	2017-11-13		2918	4241					Skulder medlemmar	Kostnader överlämningar					10	10						1363.00					1363,00						1363.0
+A174	Bidrag DigIT	Bidrag DigIT	2017-10-20	2017-11-13		1920	1926					Bankkonto StyrIT	Bankkonto digIT					10	10						5000.00					5000,00						5000.0
+A175	MB - Fika sektionsmöte LP1		2017-10-20	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						264.20					264,20						264.2
+A176	MB - Äskning Inpirationsföreläsning att sitta i en kommittée	MB - Äskning Inpirationsföreläsning att sitta i en kommittée	2017-10-20	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						332.55					332,55						332.55
+A177	FB - Shurgard för November	FB - Shurgard för November	2017-10-20	2017-11-13		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A178	FB - Chalmers Försäkring	FB - Chalmers Försäkring	2017-10-20	2017-11-13		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						2400.00					2400,00						2400.0
+A179	FB - AM Veragücklarna	FB - AM Veragücklarna	2017-10-20	2017-11-13		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						3000.00					3000,00						3000.0
+A180	Inkomst Swish Alumnimiddag	Inkomst Swish	2017-10-23	2017-11-13		1930	2919	3215				Bankkonto Swish	Skulder Swish	Intäkter Alumnimiddag				10	10	10				700.00							1,50	698,50				700.0
+A181	Sunfleet Augusti NollKIT inbetalning	Sunfleet Augusti NollKIT inbetalning	2017-10-23	2017-11-13		1920	1612					Bankkonto StyrIT	Fordringar NollKIT					10	10					1116.38							1116,38					1116.38
+A182	Domänavgift medlemsutlägg rättande inbetalning	Domänavgift medlemsutlägg rättande inbetalning	2017-10-23	2017-11-13		1618	1920					Fordringar Medlemmar	Bankkonto StyrIT					10	10						5.91					5,91						5.91
+A183	Inbetalning av MU skärmar	Inbetalning av MU skärmar	2017-10-25	2017-11-13		1618	1920					Fordringar Medlemmar	Bankkonto StyrIT					10	10						2078.00					2078,00						2078.0
+A184	Sektionsavgifter för Våren 2017	Sektionsavgifter för Våren 2017	2017-10-27	2017-11-13		1920	3270					Bankkonto StyrIT	Sektionsavgifter					10	10					25760.00							25760,00					25760.0
+A185	MU - Teambuilding StyrIT Tullen	MU - Teambuilding StyrIT Tullen	2017-10-29	2017-11-13		2918	4510					Skulder medlemmar	Kostnader Intern Representation					10	10						630.00					630,00						630.0
+A186	Swish-kostnader för september	Swish-kostnader för september	2017-10-20	2017-11-13		1930	2919					Bankkonto Swish	Skulder Swish					10	10						420.00					420,00						420.0
+A187	Överföring för utbetalning av mottagningssittning Swish	Överföring för utbetalning av mottagningssittning Swish	2017-10-30	2017-11-13		1920	1930					Bankkonto StyrIT	Bankkonto Swish					10	10					5448.00							5448,00					5448.0
+A188	Swish utbetalning för intäkter Oktobersits	Swish utbetalning för intäkter Oktobersits	2017-10-30	2017-11-13		1930	2910					Bankkonto Swish	Skulder PRIT					10	10						4803.00					4803,00						4803.0
+A189	Swish utbetalning för intäkter Våfflor PRIT	Swish utbetalning för intäkter Våfflor PRIT	2017-10-30	2017-11-13		1930	2910	2910				Bankkonto Swish	Skulder PRIT	Skulder PRIT				10	10	10					4135.50	3143.50				7279,00						7279.0
+A190	Överföring för returnerade Alumnimiddagsbiljetter	Överföring för returnerade Alumnimiddagsbiljetter	2017-10-30	2017-11-13		1920	1930					Bankkonto StyrIT	Bankkonto Swish					10	10						2500.00					2500,00						2500.0
+A191	Överföring för Alumnimiddagsbiljettinkomster Swish	Överföring för Alumnimiddagsbiljettinkomster Swish	2017-10-30	2017-11-13		1920	1930					Bankkonto StyrIT	Bankkonto Swish					10	10					42989.00							42989,00					42989.0
+A192	Överföring intäkter Swish för Sittning sexIT	Överföring intäkter Swish för Sittning sexIT	2017-10-30	2017-11-13		1930	2911					Bankkonto Swish	Skulder sexIT					10	10						8075.50					8075,50						8075.5
+A193	FM - Hedersdiplom Samuel Bengmark	FM - Hedersdiplom Samuel Bengmark	2017-10-30	2017-11-13		2440	6990					Leverantörsskulder	Övriga kostnader					10	10						108.00					108,00						108.0
+A194	FB - GT September	FB - GT September	2017-10-30	2017-11-13		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						55513.00					55513,00						55513.0
+A195	MU - Aspningsarrangörsutbildningsfika	MU - Aspningsarrangörsutbildningsfika	2017-10-31	2017-11-13		2918	4520					Skulder medlemmar	Kostnader Föreningsutbildningar					10	10						74.30					74,30						74.3
+A196	FM - Sunfleet oktober	FM - Sunfleet oktober	2017-10-31	2017-11-13		2440	1610					Leverantörsskulder	Fordringar PRIT					10	10						1141.03					1141,03						1141.03
+A197	Överföring Bidrag Förbrukningsvaror	Överföring Bidrag Förbrukningsvaror	2017-10-31	2017-11-13		1920	1921					Bankkonto StyrIT	Bankkonto PRIT					10	10						13500.00					13500,00						13500.0
+A198	Överföring för Rust - Induktionshällar	Överföring för Rust - Induktionshällar	2017-10-31	2017-11-13		1920	1921					Bankkonto StyrIT	Bankkonto PRIT					10	10						5310.00					5310,00						5310.0
+A199	Utbetalning för iZettleförsäljning 2017-09-07	Utbetalning för iZettleförsäljning 2017-09-07	2017-10-31	2017-11-13		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						797.74					797,74						797.74
+A200	FM - Sektionsmötesmat LP2	FM - Sektionsmötesmat LP2	2017-10-31	2017-11-13		2440	4331					Leverantörsskulder	Kostnader Sektionsmötesmat					10	10						2346.00					2346,00						2346.0
+A201	Inkomst Swish Våfflor Pubrunda LP2 Torsdag	Inkomst Swish Våfflor Pubrunda LP2 Torsdag	2017-11-02	2017-11-13		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				3405.00							3159,00	246,00				3405.0
+A202	Inkomster Swish Våfflor Pubrunda LP2 Fredag	Inkomster Swish Våfflor Pubrunda LP2 Fredag	2017-11-03	2017-11-13		1930	2919	2910				Bankkonto Swish	Skulder Swish	Skulder PRIT				10	10	10				2625.00							174,00	2451,00				2625.0
+A203	MB - Aspningsarrangörsutbildningsfika	MB - Aspningsarrangörsutbildningsfika	2017-11-03	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						74.30					74,30						74.3
+A204	FB	FB - Hedersdiplom Samuel Bengmark	2017-11-03	2017-11-13		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						108.00					108,00						108.0
+A205	MU -Spotify 1 mån	MU -Spotify 1 mån	2017-11-06	2017-11-13		2918	4323					Skulder medlemmar	Kostnader Spotify					10	10						99.00					99,00						99.0
+A206	MU - Spotify 3 mån	MU - Spotify 3 mån	2017-11-06	2017-11-13		2918	4323					Skulder medlemmar	Kostnader Spotify					10	10						297.00					297,00						297.0
+A207	MU - Spotify 6 mån	MU - Spotify 6 mån	2017-11-06	2017-11-13		2918	4323					Skulder medlemmar	Kostnader Spotify					10	10						594.00					594,00						594.0
+A208	Inbetalat lån från ArmIT	Inbetalat lån från ArmIT	2017-11-07	2017-11-13		1920	1614					Bankkonto StyrIT	Fordringar armIT					10	10					10000.00							10000,00					10000.0
+A209	Inköp - Mat Kassörskväll LP2		2017-11-07	2017-11-13		1920	4522					Bankkonto StyrIT	Kostnader Kassörskväll och Ordförandemöten					10	10						198.20					198,20						198.2
+A210	Inbetalning från iZettle för Oktober + fram till 7 November	Inbetalning från iZettle för Oktobersits och Pubrunda	2017-11-07	2017-11-13		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10					27180.24							27180,24					27180.24
+A211	Inkomst Swish Mexicosittning	Inkomst Swish Mexicosittning	2017-11-08	2017-11-13		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				90.00							88,50	1,50				90.0
+A212	MU - Studentrösten höst vindruvor	MU - Studentrösten höst vindruvor	2017-11-08	2017-11-13		2918	4332					Skulder medlemmar	Kostnader Studentrösten					10	10						82.40					82,40						82.4
+A213	MU - Studentrösten höst godis	MU - Studentrösten höst godis	2017-11-08	2017-11-13		2918	4332					Skulder medlemmar	Kostnader Studentrösten					10	10						201.14					201,14						201.14
+A214	Inkomst Swish Mexicosittning	Inkomst Swish Mexicosittning	2017-11-09	2017-11-13		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				270.00							265,50	4,50				270.0
+A215	MU - Överlämning revisorer	MU - Överlämning revisorer	2017-11-09	2017-11-13		2918	4241					Skulder medlemmar	Kostnader överlämningar					10	10						440.00					440,00						440.0
+A216	MB - Teambuilding StyrIT Tullen	MB - Teambuilding StyrIT Tullen	2017-11-13	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						630.00					630,00						630.0
+A217	Sunfleet September PRIT inbetalning	Sunfleet September PRIT inbetalning	2017-11-13	2017-11-13		1610	1920					Fordringar PRIT	Bankkonto StyrIT					10	10						287.20					287,20						287.2
+A218	Sunfleet Oktober PRIT Inbetalning	Sunfleet Oktober PRIT Inbetalning	2017-11-13	2017-11-13		1610	1920					Fordringar PRIT	Bankkonto StyrIT					10	10						1141.03					1141,03						1141.03
+A219	MB - Överlämning revisorer	MB - Överlämning revisorer	2017-11-13	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						440.00					440,00						440.0
+A220	MB - Studentrösten höst godis + vindruvor	MB - Studentrösten höst godis + vindruvor	2017-11-13	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						283.54					283,54						283.54
+A221	MB - Ordförandemöte LP1 1 och 2	MB - Ordförandemöte LP1 1 och 2	2017-11-13	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						261.54					261,54						261.54
+A222	Utbetalning iZettle för inkomst 2017-10-13 och 2017-10-14	Utbetalning iZettle för inkomst 2017-10-13 och 2017-10-14	2017-11-13	2017-11-13		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						5781.83					5781,83						5781.83
+A223	Överföring för momsen på induktionshällarna	Överföring för momsen på induktionshällarna	2017-11-13	2017-11-13		1920	1921					Bankkonto StyrIT	Bankkonto PRIT					10	10						1328.00					1328,00						1328.0
+A224	FB - Sunfleet oktober	FB - Sunfleet oktober	2017-11-13	2017-11-13		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						1141.03					1141,03						1141.03
+A225	Utbetalning av försäljning iZettle 2017-11-02 och 2017-11-03	Utbetalning av försäljning iZettle 2017-11-02 och 2017-11-03	2017-11-13	2017-11-13		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						21398.41					21398,41						21398.41
+A226	MB - Alla Spotify	MB - Alla Spotify	2017-11-13	2017-11-13		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						1188.00					1188,00						1188.0
+A227	FM - Digit Fortnox årsbetalning		2017-11-10	2018-02-26		2440	6570					Leverantörsskulder	Bankkostnader					10	10						885.00					885,00						885.0
+A228	FM - sexIT Fortnox årsbetalning		2017-11-10	2018-02-26		2440	6570					Leverantörsskulder	Bankkostnader					10	10						885.00					885,00						885.0
+A229	FM - FrITid Fortnox årsbetalning		2017-11-10	2018-02-26		2440	6570					Leverantörsskulder	Bankkostnader					10	10						885.00					885,00						885.0
+A230	FM - P.R.I.T. Fortnox årsbetalning		2017-11-10	2018-02-26		2440	6570					Leverantörsskulder	Bankkostnader					10	10						885.00					885,00						885.0
+A231	FM - armIT Fortnox årsavgift		2017-11-10	2018-02-26		2440	6570					Leverantörsskulder	Bankkostnader					10	10						885.00					885,00						885.0
+A232	FM - NollKIT Fortnox årsavgift		2017-11-10	2018-02-26		2440	6570					Leverantörsskulder	Bankkostnader					10	10						885.00					885,00						885.0
+A233	FM - Grant Thornton Oktober		2017-11-13	2018-02-26		2440	6573					Leverantörsskulder	Kostnader Extern Ekonomisk Rådgivning					10	10						80635.00					80635,00						80635.0
+A234	Swish försäljning Mexicobiljetter		2017-11-13	2018-02-26		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				180.00							177,00	3,00				180.0
+A235	MRCIT betalning Sunfleet September		2017-11-14	2018-02-26		1920	1616					Bankkonto StyrIT	Fordringar MRCIT					10	10					179.38							179,38					179.38
+A236	MU - Fika ordförandemöte 1 LP2		2017-11-14	2018-02-26		2918	4522					Skulder medlemmar	Kostnader Kassörskväll och Ordförandemöten					10	10						136.73					136,73						136.73
+A237	Swishintäkter mexicosittning		2017-11-14	2018-02-26		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				90.00							88,50	1,50				90.0
+A238	Äskning för Phillips Hue till hubben 2.1		2017-11-16	2018-02-26		1920	4310					Bankkonto StyrIT	Kostnader äskningar					10	10						3703.00					3703,00						3703.0
+A239	Swishintäkter Mexicosittning		2017-11-16	2018-02-26		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				1530.00							1504,50	25,50				1530.0
+A240	Swishintäkter sexIT		2017-11-17	2018-02-26		1930	2911	2911	2919			Bankkonto Swish	Skulder sexIT	Skulder sexIT	Skulder Swish			10	10	10	10			3540.00							1177,50	2301,00	61,50			3540.0
+A241	MU - Fika Valberedningsintervjuer 2		2017-11-18	2018-02-26		2918	4270					Skulder medlemmar	Kostnader Valberedningen Intervjuer					10	10						78.45					78,45						78.45
+A242	MU - Matbidrag Valberedningsintervjer		2017-11-18	2018-02-26		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						250.00					250,00						250.0
+A243	MU - Mat valberedningsintervjuer 1		2017-11-19	2018-02-26		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						73.80					73,80						73.8
+A244	MU - Matbidrag valberedningsintervjuer 4		2017-11-19	2018-02-26		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						164.00					164,00						164.0
+A245	FM - Shurgard för December		2017-11-20	2018-02-26		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						552.00					552,00						552.0
+A246	Swishintäkter aspu- och mexicobiljetter		2017-11-20	2018-02-26		1930	2911	2911	2911	2919		Bankkonto Swish	Skulder sexIT	Skulder sexIT	Skulder sexIT	Skulder Swish		10	10	10	10	10		2400.00			90.00				942,00	1507,50		40,50		2490.0
+A247	Avgifter Swish		2017-11-20	2018-02-26		1930	2919					Bankkonto Swish	Skulder Swish					10	10						91.50					91,50						91.5
+A248	MU - PQ till StyrIT-sekreterare		2017-11-21	2018-02-26		2918	6110					Skulder medlemmar	Kontorsmaterial					10	10						175.00					175,00						175.0
+A249	Swish mexicointäkter		2017-11-21	2018-02-26		1930	2911	2911	2919			Bankkonto Swish	Skulder sexIT	Skulder sexIT	Skulder Swish			10	10	10	10					990.00				630,00	354,00		6,00			990.0
+A250	MB - PQ sekreterare		2017-11-23	2018-02-26		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						175.00					175,00						175.0
+A251	MB - Fika ordförandemöte 1 LP2		2017-11-23	2018-02-26		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						136.73					136,73						136.73
+A252	MB - Överlämning valberedning		2017-11-23	2018-02-26		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						1363.00					1363,00						1363.0
+A253	FB - Sektionsmötesmat LP1		2017-11-23	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						2346.00					2346,00						2346.0
+A254	MU - Matbidrag valberedningsintervjuer 2		2017-11-25	2018-02-26		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						450.00					450,00						450.0
+A255	MU - Fika valberedningsintervjuer 1		2017-11-25	2018-02-26		2918	4270					Skulder medlemmar	Kostnader Valberedningen Intervjuer					10	10						62.70					62,70						62.7
+A256	MU - Matbidrag valberedningsintervjuer 3		2017-11-26	2018-02-26		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						419.00					419,00						419.0
+A257	FB - DigIT Fortnox		2017-11-28	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						885.00					885,00						885.0
+A258	FB - sexIT Fortnox		2017-11-28	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						885.00					885,00						885.0
+A259	FB - frITid Fortnox		2017-11-28	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						885.00					885,00						885.0
+A260	FB - P.R.I.T. Fortnox		2017-11-28	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						885.00					885,00						885.0
+A261	FB - ArmIT Fortnox		2017-11-28	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						885.00					885,00						885.0
+A262	FB - NollKIT Fortnox		2017-11-28	2018-02-26		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						885.00					885,00						885.0
+A263	PL inbetalning av snIT-pengar		2017-11-30	2018-03-04		1920	2922					Bankkonto StyrIT	Skulder snIT					10	10					40000.00							40000,00					40000.0
+A264	FM - Sunfleet för November		2017-11-30	2018-03-04		1610	1611	2440	5610			Fordringar PRIT	Fordringar sexIT	Leverantörsskulder	Kostnader bil			10	10	10	10			1322.23	316.26		2500.00					4138,49				4138.49
+A265	Stödmedlemsskap Rasmus Nordström		2017-12-04	2018-03-04		1920	3270					Bankkonto StyrIT	Sektionsavgifter					10	10					40.00							40,00					40.0
+A266	Unionen inbetalning till NollKIT		2017-12-06	2018-03-04		1612	1920					Fordringar NollKIT	Bankkonto StyrIT					10	10						4000.00					4000,00						4000.0
+A267	PRIT stödinbetalning för Sunfleet i augusti		2017-12-07	2018-03-04		1610	1920					Fordringar PRIT	Bankkonto StyrIT					10	10						186.68					186,68						186.68
+A268	FB - Shurgard för December		2017-12-07	2018-03-04		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A269	MU - Fika sektionsmöte LP2		2017-12-07	2018-03-04		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						349.50					349,50						349.5
+A270	Överföring PL-bidrag till snIT		2017-12-08	2018-03-04		1920	2922					Bankkonto StyrIT	Skulder snIT					10	10						40000.00					40000,00						40000.0
+A271	FS - Kåräskning för motivationsföreläsning från Data i våras		2017-12-08	2018-03-04		1510	3999					Kundfordringar	Övriga intäkter					10	10					20000.00							20000,00					20000.0
+A272	MU - Äskning Lussekatter		2017-12-09	2018-03-04		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						30.00					30,00						30.0
+A273	MU - Äskning för lussekatter fikIT		2017-12-09	2018-03-04		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						101.30					101,30						101.3
+A274	MU - Äskning julmys pepparkakshus		2017-12-10	2018-03-04		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						627.75					627,75						627.75
+A275	MB - Sektionsmötesfika LP2		2017-12-12	2018-03-04		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						349.50					349,50						349.5
+A276	Skuld till PRIT från Fysik 		2017-12-12	2018-03-04		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						150.00					150,00						150.0
+A277	FM - Vegansk mat sektionsmöte LP2		2017-12-12	2018-03-04		2440	4331					Leverantörsskulder	Kostnader Sektionsmötesmat					10	10						367.00					367,00						367.0
+A278	FB - Vegansk mat sektionsmöte LP 2		2017-12-12	2018-03-04		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						367.00					367,00						367.0
+A279	FB - Sunfleet för November		2017-12-12	2018-03-04		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						4138.49					4138,49						4138.49
+A280	FI - Kåräskning för motivationsföreläsning från Data		2017-12-12	2018-03-04		1510	1920					Kundfordringar	Bankkonto StyrIT					10	10						20000.00					20000,00						20000.0
+A281	MU - Kablar för sektionsmöe		2017-12-12	2018-03-04		2918	4330					Skulder medlemmar	Kostnader Sektionsmöten					10	10						650.00					650,00						650.0
+A282	Swish utbetalning för intäkter pubrunda LP2		2017-12-12	2018-03-05		1930	2910					Bankkonto Swish	Skulder PRIT					10	10						5610.00					5610,00						5610.0
+A283	FM - Hoodies StyrIT		2017-12-15	2018-03-05		2440	5920					Leverantörsskulder	Profilkläder och material					10	10						3682.00					3682,00						3682.0
+A284	Utbetalning av delvis vinst från armIT 2017		2017-12-18	2018-03-05		1920	1925					Bankkonto StyrIT	Bankkonto armIT					10	30					200000.00							200000,00					200000.0
+A285	Betalning av serveringstillstånd, PRIT x2 pubrundor och NollKIT PTS		2017-12-18	2018-03-05		1920	4213					Bankkonto StyrIT	Kostnader Serveringstillstånd					10	10						800.00					800,00						800.0
+A286	FM - Shurgard för Januari		2017-12-18	2018-03-05		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						552.00					552,00						552.0
+A287	FB - Shurgard för Januari		2017-12-18	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A288	FB - Grant Thornton oktober		2017-12-18	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						80635.00					80635,00						80635.0
+A289	Sunfleet PRIT inbetalning för november		2017-12-19	2018-03-05		1610	1920					Fordringar PRIT	Bankkonto StyrIT					10	10						1322.23					1322,23						1322.23
+A290	iZettle inbetalning för julpuben 2017-12-11		2017-12-19	2018-03-05		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10					7933.76							7933,76					7933.76
+A291	FM - Sektionsmötesmat LP2		2017-12-19	2018-03-05		2440	4331					Leverantörsskulder	Kostnader Sektionsmötesmat					10	10						3772.00					3772,00						3772.0
+A292	Swish månadsavgifter för november		2017-12-19	2018-03-05		1930	2919					Bankkonto Swish	Skulder Swish					10	10						564.00					564,00						564.0
+A293	FM - Grant Thornton november		2017-12-25	2018-03-05		2440	6573					Leverantörsskulder	Kostnader Extern Ekonomisk Rådgivning					10	10						13156.00					13156,00						13156.0
+A294	Sunfleet sexIT inbetalning för november		2017-12-27	2018-03-05		1920	1611					Bankkonto StyrIT	Fordringar sexIT					10	10					316.26							316,26					316.26
+A295	Bidrag från kåren till MRCIT inbetalt		2017-12-28	2018-03-05		1920	1616					Bankkonto StyrIT	Fordringar MRCIT					10	10					8000.00							8000,00					8000.0
+A296	Bidrag från motivationsföreläsning inbetald av elektro		2017-12-29	2018-03-05		1920	3999					Bankkonto StyrIT	Övriga intäkter					10	10					7215.00							7215,00					7215.0
+A297	FM - Sunfleet december		2017-12-31	2018-03-05		1610	2440	5610				Fordringar PRIT	Leverantörsskulder	Kostnader bil				10	10	10				849.32		1250.00					2099,32					2099.32
+A298	Bidrag till FrITid utbetalt		2018-01-03	2018-03-05		1920	1924					Bankkonto StyrIT	Bankkonto FrITid					10	60						12000.00					12000,00						12000.0
+A299	Inbetalning Sunfleet PRIT för December		2018-01-03	2018-03-05		1610	1920					Fordringar PRIT	Bankkonto StyrIT					10	10						849.32					849,32						849.32
+A300	17121521 Utbetalning iZettle till PRIT för julpub		2018-01-03	2018-03-05		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						7933.76					7933,76						7933.76
+A301	FB - Grant Thornton november		2018-01-03	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						13156.00					13156,00						13156.0
+A302	FB - Hoodies StyrIT		2018-01-03	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						3682.00					3682,00						3682.0
+A303	FB - Sunfleet december		2018-01-03	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						2099.32					2099,32						2099.32
+A304	BG - Bidrag till MRCIT från GU		2018-01-03	2018-03-05		1920	1616					Bankkonto StyrIT	Fordringar MRCIT					10	10					1600.00							1600,00					1600.0
+A305	iZettle inbetalning för finsittning NollKIT 2017-12-29		2018-01-03	2018-03-05		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10					11849.55							11849,55					11849.55
+A306	FB - Sektionsmötesmat LP2		2018-01-09	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						3772.00					3772,00						3772.0
+A307	MB - Äskning Julmys Pepparkakshus		2018-01-15	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						627.75					627,75						627.75
+A308	Aspningsbidrag till NollKIT		2018-01-15	2018-03-05		1920	1923					Bankkonto StyrIT	Bankkonto NollkIT					10	50						3000.00					3000,00						3000.0
+A309	17122931 Utbetalning iZettle till NollKIT för finsittning och sekreten		2018-01-15	2018-03-05		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						11849.55					11849,55						11849.55
+A310	Rustbidrag för kaffekokare		2018-01-15	2018-03-05		1920	1921					Bankkonto StyrIT	Bankkonto PRIT					10	40						3112.50					3112,50						3112.5
+A311	Aspningsbidrag till PRIT		2018-01-15	2018-03-05		1920	1921					Bankkonto StyrIT	Bankkonto PRIT					10	10						3000.00					3000,00						3000.0
+A312	Aspningsbidrag till sexIT		2018-01-15	2018-03-05		1920	1922					Bankkonto StyrIT	Bankkonto SexIT					10	10						3000.00					3000,00						3000.0
+A313	MB - Äskning Lussekatter 1 & 2		2018-01-15	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						131.30					131,30						131.3
+A314	Betalning av medlemsutlägg		2018-01-15	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						942.80					942,80						942.8
+A315	Inbetalning sunfleet NollKIT för September		2018-01-16	2018-03-05		1920	1612					Bankkonto StyrIT	Fordringar NollKIT					10	10					2440.02							2440,02					2440.02
+A316	MB - Kablar för sektionsmöte		2018-01-17	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						650.00					650,00						650.0
+A317	FM - Shurgard för februari		2018-01-17	2018-03-05		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						552.00					552,00						552.0
+A318	MB - Matbidrag valberedningsintervjuer 5 + Fika valberedningen 1		2018-01-18	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						312.70					312,70						312.7
+A319	MB - Matbidrag valberedningsintervjuer 4		2018-01-18	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						164.00					164,00						164.0
+A320	MB - Fika valberedningsintervjuer 2		2018-01-18	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						78.45					78,45						78.45
+A321	MB - Kemtvätt FanbärerIT		2018-01-18	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						975.00					975,00						975.0
+A322	Swish försäljning pubrunda LP3 Våfflor		2018-01-18	2018-03-05		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				2260.00							2117,50	142,50				2260.0
+A323	FM - Grant Thornton December		2018-01-19	2018-03-05		2440	6573					Leverantörsskulder	Kostnader Extern Ekonomisk Rådgivning					10	10						22688.00					22688,00						22688.0
+A324	Modulsponsring till NollKIT 		2018-01-19	2018-03-05		1920	2912					Bankkonto StyrIT	Skulder NollKIT					10	10						2500.00					2500,00						2500.0
+A325	Swish Utbetalning Mexico och Aspun		2018-01-18	2018-03-05		1930	2911					Bankkonto Swish	Skulder sexIT					10	10						7195.50					7195,50						7195.5
+A326	Swish försäljning pubrunda LP3 våfflor		2018-01-19	2018-03-05		1930	2910	2919				Bankkonto Swish	Skulder PRIT	Skulder Swish				10	10	10				2059.00							1895,50	163,50				2059.0
+A327	Årsavgift företagstjänst Swedbank		2018-01-22	2018-03-05		1920	6570					Bankkonto StyrIT	Bankkostnader					10	10						1180.00					1180,00						1180.0
+A328	Förnyelse nollk.it		2018-01-23	2018-03-05		1612	1920					Fordringar NollKIT	Bankkonto StyrIT					10	10					1749.79							1749,79					1749.79
+A329	iZettle för pubrundan 2018-01-18		2018-01-23	2018-03-05		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10					22077.94							22077,94					22077.94
+A330	Bidrag FanbärerIT17/18 + Kemtvättsbidrag		2018-01-25	2018-03-05		1920	1929					Bankkonto StyrIT	Bankkonto FanbärerIT					10	10						8700.00					8700,00						8700.0
+A331	18011821 iZettle för pubrundan		2018-01-25	2018-03-05		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10						22077.94					22077,94						22077.94
+A332	FB - Shurgard för februari		2018-01-25	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						552.00					552,00						552.0
+A333	FB - Grant Thornton december		2018-01-25	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						22688.00					22688,00						22688.0
+A334	MU - Kassörskväll LP3		2018-01-25	2018-03-05		2918	4522					Skulder medlemmar	Kostnader Kassörskväll och Ordförandemöten					10	10						173.45					173,45						173.45
+A335	Swish försäljning Hell's Kitchen		2018-01-29	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				6020.00							5921,00	99,00				6020.0
+A336	Inbetalning internfordran nollk.it		2018-01-29	2018-03-05		1612	1920					Fordringar NollKIT	Bankkonto StyrIT					10	10						1749.79					1749,79						1749.79
+A337	MU - Aspningsarrangörsutbildningsfika  LP3		2018-01-29	2018-03-05		2918	4520					Skulder medlemmar	Kostnader Föreningsutbildningar					10	10						52.00					52,00						52.0
+A338	MU - Kväll med StyrIT 1		2018-01-30	2018-03-05		2918	4520					Skulder medlemmar	Kostnader Föreningsutbildningar					10	10						136.50					136,50						136.5
+A339	MU - Kväll med StyrIT 2		2018-01-30	2018-03-05		2918	4520					Skulder medlemmar	Kostnader Föreningsutbildningar					10	10						413.55					413,55						413.55
+A340	Swish försäljning Hell's Kitchen		2018-01-30	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				540.00							531,00	9,00				540.0
+A341	FM - Sunfleet januari		2018-01-31	2018-03-05		1610	1611	2440	5610			Fordringar PRIT	Fordringar sexIT	Leverantörsskulder	Kostnader bil			10	10	10	10			762.82	288.50		1250.00					2301,32				2301.32
+A342	Swish försäljning Hell's Kitchen		2018-01-31	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				630.00							619,50	10,50				630.0
+A343	Swish försäljning Hell's Kitchen		2018-02-01	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				90.00							88,50	1,50				90.0
+A344	Bläck till StyrITs skrivare		2018-02-01	2018-03-05		1920	6110					Bankkonto StyrIT	Kontorsmaterial					10	10						439.00					439,00						439.0
+A345	Sektionsavgifter för hösten 2017		2018-02-02	2018-03-05		1920	3270					Bankkonto StyrIT	Sektionsavgifter					10	10					28350.00							28350,00					28350.0
+A346	Swish försäljning pedagogiska priset		2018-02-05	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				1290.00							1275,00	15,00				1290.0
+A347	Swish försäljning pedagogiska priset		2018-02-06	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				380.00							375,50	4,50				380.0
+A348	Swish försäljning pedagogiska priset		2018-02-07	2018-03-05		1930	2911	2919				Bankkonto Swish	Skulder sexIT	Skulder Swish				10	10	10				1150.00							1136,50	13,50				1150.0
+A349	Swish FanbärerIT Ost- och vinkväll		2018-02-09	2018-03-05		1930	2919	2921				Bankkonto Swish	Skulder Swish	Skulder FanbärerIT				10	10	10				770.00							16,50	753,50				770.0
+A350	Swish utbetalning pubrunda LP3 Våfflor		2018-02-09	2018-03-05		1930	2910					Bankkonto Swish	Skulder PRIT					10	10						4013.00					4013,00						4013.0
+A351	NollKIT18 utbetalning av lån		2018-02-09	2018-03-05		1612	1920					Fordringar NollKIT	Bankkonto StyrIT					10	10					20000.00							20000,00					20000.0
+A352	MB - Kassörskväll LP3		2018-02-09	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						173.45					173,45						173.45
+A353	MB - Aspningsarrangörsutbildningsfika LP3		2018-02-09	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						52.00					52,00						52.0
+A354	MB - Kväll med StyrIT 1 och 2		2018-02-09	2018-03-05		1920	2918					Bankkonto StyrIT	Skulder medlemmar					10	10						550.05					550,05						550.05
+A355	FB - Sunfleet januari		2018-02-09	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						2301.32					2301,32						2301.32
+A356	MU - Valberedningmat 2-10		2018-02-10	2018-03-05		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						246.00					246,00						246.0
+A357	MU - Intervjufika 2-10		2018-02-10	2018-03-05		2918	4270					Skulder medlemmar	Kostnader Valberedningen Intervjuer					10	10						85.20					85,20						85.2
+A358	MU - Valberedningmat 2-11 1		2018-02-11	2018-03-05		2918	4271					Skulder medlemmar	Kostnader Valberedningen Matbidrag					10	10						82.00					82,00						82.0
+A359	MU - Äskning alla hjärtans dag-fika		2018-02-12	2018-03-05		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						189.10					189,10						189.1
+A360	Swish FanbärerIT Ost- och vinkväll		2018-02-12	2018-03-05		1930	2919	2921				Bankkonto Swish	Skulder Swish	Skulder FanbärerIT				10	10	10				490.00							10,50	479,50				490.0
+A361	Swish FanbärerIT Ost- och vinkväll		2018-02-13	2018-03-05		1930	2919	2921				Bankkonto Swish	Skulder Swish	Skulder FanbärerIT				10	10	10				210.00							4,50	205,50				210.0
+A362	Swish FanbärerIT Ost- och vinkväll		2018-02-14	2018-03-05		1930	2919	2921				Bankkonto Swish	Skulder Swish	Skulder FanbärerIT				10	10	10				140.00							3,00	137,00				140.0
+A363	Swish FanbärerIT Ost- och vinkväll		2018-02-16	2018-03-05		1930	2919	2921				Bankkonto Swish	Skulder Swish	Skulder FanbärerIT				10	10	10				70.00							1,50	68,50				70.0
+A364	MU - Teambuilding StyrIT JA		2018-02-16	2018-03-05		2918	4510					Skulder medlemmar	Kostnader Intern Representation					10	10						388.45					388,45						388.45
+A365	Swish FanbärerIT Ost- och vinkväll		2018-02-19	2018-03-05		1930	2919	2921				Bankkonto Swish	Skulder Swish	Skulder FanbärerIT				10	10	10				560.00							12,00	548,00				560.0
+A366	Stödmedlemskap Rasmus Nordström VT18		2018-02-19	2018-03-05		1920	3270					Bankkonto StyrIT	Sektionsavgifter					10	10					40.00							40,00					40.0
+A367	FM - Shurgard		2018-02-19	2018-03-05		2440	4410					Leverantörsskulder	Kostnader Förvaring					10	10						577.00					577,00						577.0
+A368	Swish avgifter januari		2018-02-20	2018-03-05		1930	2919					Bankkonto Swish	Skulder Swish					10	10						426.00					426,00						426.0
+A369	iZettle inbetalning för fettisdagen		2018-02-20	2018-03-05		1920	2910					Bankkonto StyrIT	Skulder PRIT					10	10					1347.48							1347,48					1347.48
+A370	BG - Bidrag till MRCIt från Chalmers		2018-02-21	2018-03-05		1920	1616					Bankkonto StyrIT	Fordringar MRCIT					10	10					16000.00							16000,00					16000.0
+A371	MU - sektionsmötesfika LP3		2018-02-22	2018-03-05		2918	4331					Skulder medlemmar	Kostnader Sektionsmötesmat					10	10						123.20					123,20						123.2
+A372	MU - Bullkalas sexIT		2018-02-23	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						76.20					76,20						76.2
+A373	MU - Äskning Skiddag 1		2018-02-24	2018-03-05		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						1199.00					1199,00						1199.0
+A374	MU - Äskning skiddag 2		2018-02-24	2018-03-05		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						1199.00					1199,00						1199.0
+A375	MU - Äskning Skiddag tankning		2018-02-25	2018-03-05		2918	4310					Skulder medlemmar	Kostnader äskningar					10	10						361.70					361,70						361.7
+A376	FB - Shurgard för mars		2018-02-26	2018-03-05		1920	2440					Bankkonto StyrIT	Leverantörsskulder					10	10						577.00					577,00						577.0
+A377	MU - Bullkalas		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						241.83					241,83						241.83
+A378	MU - Bullkalas FanbärerIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						87.30					87,30						87.3
+A379	MU - Bullkalas DrawIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						84.00					84,00						84.0
+A380	MU - Bullkalas hookIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						111.80					111,80						111.8
+A381	MU - Bullkalas ArmIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						150.10					150,10						150.1
+A382	MU - Bullkalas NollKIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						164.90					164,90						164.9
+A383	MU - Bullkalas digIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						94.00					94,00						94.0
+A384	MU - Bullkalas PRIT		2018-02-26	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						79.10					79,10						79.1
+A385	MU - Bullkalas FanbärerIT		2018-02-27	2018-03-05		2918	4511					Skulder medlemmar	Kostnader Extern Representation					10	10						15.00					15,00						15.0
+A386	Bullkalas StyrIT		2018-02-28	2018-03-05		1920	4511					Bankkonto StyrIT	Kostnader Extern Representation					10	10						88.49					88,49						88.49
