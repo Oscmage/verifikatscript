@@ -2,10 +2,7 @@
 
 import csv
 import colnames
-
-def func():
-    pass
-
+import sys
 
 def main():
     file_name = 'rättdatum.csv'
@@ -89,5 +86,12 @@ def writeHeaders(out):
 
     out.writerow(ret)
 
+def getUserInput():
+    file_name = input('Please enter the csv filename that you want to convert (eg. "myfile.csv"): ')
+    delimeter = input('Please enter the delimeter used for the csv file (eg. ";", if the file uses tab write backslash t)')
+    return file_name, delimeter
+
 if __name__ == '__main__':
-    main()
+    #main()
+    f, d = getUserInput()
+    print(f + " " + d)
