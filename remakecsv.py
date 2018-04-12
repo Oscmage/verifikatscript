@@ -8,7 +8,7 @@ def func():
 
 
 def main():
-    file_name = 'Report_20180411_0808.csv'
+    file_name = 'rättdatum.csv'
 
     with open(file_name, 'rb') as f:
         reader = csv.reader(f, delimiter=';')
