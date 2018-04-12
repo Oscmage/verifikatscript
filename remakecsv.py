@@ -20,14 +20,12 @@ def main():
         totalSum = 0
         countVrWithSame = 1                
         for rowNbr, row in enumerate(reader):
-            if rowNbr <= 1:
+            if rowNbr <= 1: # The first line is just a name of the file when downloaded from fortnox so skip it
                 continue
-            # Do we have same ver number?, if yes continue adding info to the string and the total sum
-            # If not, change currentVrLine, create new string and totalSum to zero
             
             for i, val in enumerate(row):
                 if i == 0: #Vernum
-                    if rowNbr == 2:
+                    if rowNbr == 2: # The second row should contain all headers for the csv file
                         cVrNumb = val
                         cVrLine = {}
                         cVrLine[colnames.vernr] = val
@@ -68,7 +66,6 @@ def main():
         write(totalSum, cVrLine, out)
 
 def write(totalSum, cVrLine, out):
-
     array = []
     array.append(cVrLine.get(colnames.vernr) if cVrLine.get(colnames.vernr) else '')
     array.append(cVrLine.get(colnames.vertext) if cVrLine.get(colnames.vertext) else '')
