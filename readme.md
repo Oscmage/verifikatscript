@@ -1,5 +1,5 @@
 1.  Ladda ner en excel fil från fortnox med alla verifikat
-2.  Konvertera den till CSV med delimeter ’;
+2.  Konvertera den till CSV med delimeter ';'
 3.  Döp den till x
 4.  kör programmet med "python remakecsv.py”
 5.  Du får nu en ny csv fil
