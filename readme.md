@@ -9,7 +9,7 @@
 6.  Välj hela kolumnen bokföringsdatum (genom att klicka ovanför). (Se gif)
 7.  Klicka på ”Format” (Se gif)
 8.  Välj ”Number” och sedan klicka i ”Plaintext” (Se gif)
-    ![magic gif](https://imgur.com/f8fc0d60-6350-4b43-b5f8-ec8a369bb68a "Magic gif")
+    ![magic gif](blob:https://imgur.com/f8fc0d60-6350-4b43-b5f8-ec8a369bb68a "Magic gif")
 
 9)  Ladda nu ner filen i formatet ”.xlsx” (Excel)
 10) Ladda ner och starta Bulkpdf, Om du har mac se A)
