@@ -20,5 +20,3 @@ Bulkpdf finns bara för windows vilket gör att du har ett flertal alternativ.
 2.  installera "wine" vilket gör att du kan köra windows program utan installera windows ([Guide här](https://www.davidbaumgold.com/tutorials/wine-mac/)
 3.  Be en kompis som har windows köra programmet åt dig
 4.  Installera/använd en windows partition på din mac (finns gratis windows från chalmers)
-
-## Hur installerar jag wine
