@@ -2,17 +2,13 @@
 
 import csv
 import colnames
+import sys
 
-def func():
-    pass
-
-
-def main():
-    file_name = 'rättdatum.csv'
+def main(file_name, delim):
 
     with open(file_name, 'rb') as f:
-        reader = csv.reader(f, delimiter=';')
-        out = csv.writer(open("myfile.csv","w"), delimiter='\t', lineterminator='\r\n')
+        reader = csv.reader(f, delimiter=delim)
+        out = csv.writer(open("report_remake.csv","w"), delimiter='\t', lineterminator='\r\n')
         writeHeaders(out)
 
         cVrNumb = ''
@@ -89,5 +85,12 @@ def writeHeaders(out):
 
     out.writerow(ret)
 
+def getUserInput():
+    file_name = input('Please enter the csv filename that you want to convert (eg. "myfile.csv"): ')
+    delimeter = input('Please enter the delimeter used for the csv file (eg. ";", if the file uses tab write backslash t)')
+    return file_name, delimeter
+
 if __name__ == '__main__':
-    main()
+    #main()
+    f_name, delim = getUserInput()
+    main(f_name, delim)
