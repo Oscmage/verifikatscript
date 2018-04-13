@@ -15,9 +15,8 @@
     ![magic gif](https://media.giphy.com/media/5T05wrxI4QvpBhBI6Z/giphy.gif "Magic gif")
 9.  Ladda nu ner filen i formatet ”.xlsx” (Excel) "File" -> "Download as" -> "Microsoft Excel (.xlsx)"
 10. [Ladda ner](https://bulkpdf.de/en) och starta Bulkpdf, Om du har mac se A)
-11. ”Load from config”
+11. Välj din .xlsx fil och verifikatmallen. Matcha sedan de olika fälten i pdf:en med fälten i excel filen och välj en output mapp.
 12. Kör!
-13. Done
 
 ## A)
 
