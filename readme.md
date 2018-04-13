@@ -1,4 +1,7 @@
 1.  Ladda ner en excel fil från fortnox med alla verifikat.
+        a. När du är inloggad på bokföringssidan, klicka på ”rapporter” i övre högra hörnet, [se fig](https://imgur.com/UF91b3S)
+        b. Klicka på ”verifikationslista”, [se fig](https://imgur.com/zBlvf3m)
+        c. Klicka i ”en serie”, välj er och klicka på ”export excel”, [se fig](https://imgur.com/hJwIQ0u)
 2.  Konvertera den till CSV med ett passande namn och titta vilken delimeter(vad som är emellan varje fält, '\t', ';'...) som används.
 3.  kör programmet med "python remakecsv.py” och följ instruktionerna
 4.  Du får nu en ny csv fil med namnet "report_remake.csv"
