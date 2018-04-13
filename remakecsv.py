@@ -53,9 +53,8 @@ def main(file_name, delim):
                 if i == 8 and countVrWithSame == 1: #Transaktionsinfo
                     cVrLine[colnames.traninf] = val
                 if i == 9: #Debet
-                    val = val.replace(',','.')
                     if val != '':
-                        totalSum += float(val)
+                        totalSum += float(val.replace(',','.'))
                     cVrLine[colnames.debet + str(countVrWithSame)] = val
                 if i == 10: #Kredit
                     cVrLine[colnames.kredit + str(countVrWithSame)] = val
