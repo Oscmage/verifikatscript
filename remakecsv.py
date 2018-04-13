@@ -72,7 +72,7 @@ def write(totalSum, cVrLine, out):
     for name in [colnames.konto, colnames.kontonamn, colnames.ks, colnames.debet, colnames.kredit]:
         for j in range(1,7):
             array.append(cVrLine.get(name + str(j)) if cVrLine.get(name + str(j)) else '')
-    array.append(totalSum)
+    array.append(str(totalSum).replace('.',','))
     out.writerow(array)
 
 def writeHeaders(out):
