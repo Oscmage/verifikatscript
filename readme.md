@@ -5,7 +5,7 @@
     2.  Klicka på ”verifikationslista”, ![se fig](https://i.imgur.com/zBlvf3m.png)
     3.  Klicka i ”en serie”, välj er och klicka på ”export excel”, <img src="https://i.imgur.com/hJwIQ0u.png" alt="Drawing" style="max-width: 200px;"/>
 
-2.  Konvertera den till CSV med ett passande namn och titta vilken delimeter(vad som är emellan varje fält, '\t', ';'...) som används.
+2.  Konvertera den till CSV (genom att använda numbers i mac, eller google sheets) med ett passande namn och titta vilken delimeter(vad som är emellan varje fält, '\t', ';'...) som används.
 3.  Kör programmet med "python remakecsv.py” och följ instruktionerna
 4.  Detta genererar en ny csv fil med namnet "report_remake.csv"
 5.  Ladda upp report_remake.csv till google sheets.
