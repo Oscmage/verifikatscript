@@ -86,8 +86,8 @@ def writeHeaders(out):
     out.writerow(ret)
 
 def getUserInput():
-    file_name = input('Please enter the csv filename that you want to convert (eg. "myfile.csv"): ')
-    delimeter = input('Please enter the delimeter used for the csv file (eg. ";", if the file uses tab write backslash t)')
+    file_name = input('Please enter the csv filename that you want to convert (eg. "myfile.csv"): \n')
+    delimeter = input('Please enter the delimeter used for the csv file (eg. ";", if the file uses tab write backslash t) \n')
     return file_name, delimeter
 
 if __name__ == '__main__':
