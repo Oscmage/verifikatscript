@@ -11,8 +11,8 @@
 7.  Klicka på ”Format” (Se gif)
 8.  Välj ”Number” och sedan klicka i ”Plaintext” (Se gif)
     ![magic gif](https://media.giphy.com/media/5T05wrxI4QvpBhBI6Z/giphy.gif "Magic gif")
-9.  Ladda nu ner filen i formatet ”.xlsx” (Excel)
-10. Ladda ner och starta Bulkpdf, Om du har mac se A)
+9.  Ladda nu ner filen i formatet ”.xlsx” (Excel) "File" -> "Download as" -> "Microsoft Excel (.xlsx)"
+10. [Ladda ner](https://bulkpdf.de/en) och starta Bulkpdf, Om du har mac se A)
 11. ”Load from config”
 12. Kör!
 13. Done
