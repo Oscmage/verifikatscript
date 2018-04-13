@@ -4,12 +4,11 @@ import csv
 import colnames
 import sys
 
-def main():
-    file_name = 'rättdatum.csv'
+def main(file_name, delim):
 
     with open(file_name, 'rb') as f:
-        reader = csv.reader(f, delimiter=';')
-        out = csv.writer(open("myfile.csv","w"), delimiter='\t', lineterminator='\r\n')
+        reader = csv.reader(f, delimiter=delim)
+        out = csv.writer(open("report_remake.csv","w"), delimiter='\t', lineterminator='\r\n')
         writeHeaders(out)
 
         cVrNumb = ''
@@ -93,5 +92,5 @@ def getUserInput():
 
 if __name__ == '__main__':
     #main()
-    f, d = getUserInput()
-    print(f + " " + d)
+    f_name, delim = getUserInput()
+    main(f_name, delim)
