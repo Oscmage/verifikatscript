@@ -3,17 +3,19 @@
   2. Klicka på ”verifikationslista”, [se fig](https://imgur.com/zBlvf3m)
   3. Klicka i ”en serie”, välj er och klicka på ”export excel”, [se fig](https://imgur.com/hJwIQ0u)
 2.  Konvertera den till CSV med ett passande namn och titta vilken delimeter(vad som är emellan varje fält, '\t', ';'...) som används.
-3.  kör programmet med "python remakecsv.py” och följ instruktionerna
-4.  Du får nu en ny csv fil med namnet "report_remake.csv"
+3.  Kör programmet med "python remakecsv.py” och följ instruktionerna
+4.  Detta genererar en ny csv fil med namnet "report_remake.csv"
 5.  Ladda upp report_remake.csv till google sheets.
-6.  Välj hela kolumnen bokföringsdatum.
-7.  Klicka på ”Format”
-8.  Välj ”Number” och sedan klicka i ”Plaintext”
-9.  Ladda nu ner filen i formatet ”.xlsx” (Excel)
-10. Ladda ner och starta Bulkpdf, Om du har mac se A)
-11. ”Load from config”
-12. Kör!
-13. Done
+6.  Välj hela kolumnen bokföringsdatum (genom att klicka ovanför). (Se gif)
+7.  Klicka på ”Format” (Se gif)
+8.  Välj ”Number” och sedan klicka i ”Plaintext” (Se gif)
+    ![magic gif](blob:https://imgur.com/f8fc0d60-6350-4b43-b5f8-ec8a369bb68a "Magic gif")
+
+9)  Ladda nu ner filen i formatet ”.xlsx” (Excel)
+10) Ladda ner och starta Bulkpdf, Om du har mac se A)
+11) ”Load from config”
+12) Kör!
+13) Done
 
 ## A)
 
