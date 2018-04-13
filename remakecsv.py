@@ -42,8 +42,8 @@ def main(file_name, delim):
                     cVrLine[colnames.reg] = val
                 if i == 3: #Konto
                     cVrLine[colnames.konto + str(countVrWithSame)] = val
-                if i == 4: #Benämning
-                    cVrLine[colnames.ben + str(countVrWithSame)] = val                
+                if i == 4: #kontonamn
+                    cVrLine[colnames.kontonamn + str(countVrWithSame)] = val                
                 if i == 5: #Kostnadsställe (Ks)
                     cVrLine[colnames.ks + str(countVrWithSame)] = val
                 if i == 6 and countVrWithSame == 1: #Projnr
@@ -70,7 +70,7 @@ def write(totalSum, cVrLine, out):
     array.append(cVrLine.get(colnames.reg) if cVrLine.get(colnames.reg) else '')
     array.append(cVrLine.get(colnames.projnr) if cVrLine.get(colnames.projnr) else '')
 
-    for name in [colnames.konto,colnames.ben, colnames.ks, colnames.debet, colnames.kredit]:
+    for name in [colnames.konto, colnames.kontonamn, colnames.ks, colnames.debet, colnames.kredit]:
         for j in range(1,7):
             array.append(cVrLine.get(name + str(j)) if cVrLine.get(name + str(j)) else '')
     array.append(totalSum)
@@ -78,7 +78,7 @@ def write(totalSum, cVrLine, out):
 
 def writeHeaders(out):
     ret = [colnames.vernr, colnames.vertext, colnames.traninf, colnames.bok, colnames.reg, colnames.projnr]
-    for name in [colnames.konto,colnames.ben, colnames.ks, colnames.debet, colnames.kredit]:
+    for name in [colnames.konto, colnames.kontonamn, colnames.ks, colnames.debet, colnames.kredit]:
         for j in range(1,7):
             ret.append(name + str(j))
     ret.append(colnames.total)
