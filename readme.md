@@ -2,7 +2,7 @@
     1.  När du är inloggad på bokföringssidan, klicka på ”rapporter” i övre högra hörnet, ![se fig](https://i.imgur.com/UF91b3S.png)
     2.  Klicka på ”verifikationslista”, ![se fig](<[Imgur](https://i.imgur.com/zBlvf3m.png)>)
     3.  Klicka i ”en serie”, välj er och klicka på ”export excel”, ![se fig](<[Imgur](https://i.imgur.com/hJwIQ0u.png)
-2.  Konvertera den till CSV med ett passande namn och titta vilken delimeter(vad som är emellan varje fält, '\t', ';'...) som används.
+2.  Konvertera den till CSV (med t.e.x. numbers, google sheets...) med ett passande namn och titta vilken delimeter(vad som är emellan varje fält, '\t', ';'...) som används.
 3.  Kör programmet med "python remakecsv.py” och följ instruktionerna
 4.  Detta genererar en ny csv fil med namnet "report_remake.csv"
 5.  Ladda upp report_remake.csv till google sheets.
@@ -21,6 +21,6 @@
 Bulkpdf finns bara för windows vilket gör att du har ett flertal alternativ.
 
 1.  Hitta en windows dator (typ datorerna på Chalmers)
-2.  installera "wine" vilket gör att du kan köra windows program utan installera windows ([Guide här](https://www.davidbaumgold.com/tutorials/wine-mac/)
+2.  Installera "wine" vilket gör att du kan köra windows program utan installera windows ([Guide här](https://www.davidbaumgold.com/tutorials/wine-mac/)
 3.  Be en kompis som har windows köra programmet åt dig
 4.  Installera/använd en windows partition på din mac (finns gratis windows från chalmers)
