@@ -14,9 +14,13 @@
 8.  Välj ”Number” och sedan klicka i ”Plaintext” (Se gif)
     ![magic gif](https://media.giphy.com/media/5T05wrxI4QvpBhBI6Z/giphy.gif "Magic gif")
 9.  Ladda nu ner filen i formatet ”.xlsx” (Excel) "File" -> "Download as" -> "Microsoft Excel (.xlsx)"
-10. [Ladda ner](https://bulkpdf.de/en) och starta Bulkpdf, Om du har mac se A)
-11. Välj din .xlsx fil och verifikatmallen. Matcha sedan de olika fälten i pdf:en med fälten i excel filen och välj en output mapp.
-12. Kör!
+10. Ladda ner sektionens [verifikatsmall](https://styrit.chalmers.it/wp-content/uploads/Verifikatmall.pdf)
+11. [Ladda ner](https://bulkpdf.de/en) och starta Bulkpdf, Om du har mac se A)
+12. Välj din .xlsx fil. Tryck nästa. 
+13. Välj verifikatmallen. Tryck nästa. 
+12. Matcha sedan de olika fälten i pdf:en med fälten i excel filen och välj en output mapp.(”Select” -> ”Use value from data source” -> välj i rullisten). ”Arrangemang” kopplas mot ”Verifikationstext”, ”Datum” mot ”Bokföringsdatum”. ”KontonrX” mot ”KontoX”. Resten kallas för samma sak.  Tryck nästa. 
+13. Välj namn på filerna som ska genereras, klicka i row number samt välj vart det ska sparas. Tryck Finish. 
+14. Klar!
 
 ## A)
 
