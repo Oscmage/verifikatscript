@@ -14,50 +14,49 @@ def main(file_name, delim):
         cVrNumb = ''
         cVrLine = {}
         totalSum = 0
-        countVrWithSame = 1                
+        countVrWithSame = 1
+        passedHeaders = False
+        numberOfVers = 0                
         for rowNbr, row in enumerate(reader):
-            if rowNbr <= 1: # The first line is just a name of the file when downloaded from fortnox so skip it
-                continue
-            
-            for i, val in enumerate(row):
-                if i == 0: #Vernum
-                    if rowNbr == 2: # The second row should contain all headers for the csv file
-                        cVrNumb = val
-                        cVrLine = {}
-                        cVrLine[colnames.vernr] = val
-                        totalSum = 0
-                        countVrWithSame = 1
-                    elif val != cVrNumb:
-                        write(totalSum, cVrLine, out)
-                        cVrNumb = val
-                        cVrLine = {}
-                        cVrLine[colnames.vernr] = val
-                        totalSum = 0
-                        countVrWithSame = 1
-                    else:
-                        countVrWithSame += 1
-                if i == 1 and countVrWithSame == 1: #Bokföringsdatum
-                    cVrLine[colnames.bok] = val
-                if i == 2 and countVrWithSame == 1: #Registreringsdatum
-                    cVrLine[colnames.reg] = val
-                if i == 3: #Konto
-                    cVrLine[colnames.konto + str(countVrWithSame)] = val
-                if i == 4: #kontonamn
-                    cVrLine[colnames.kontonamn + str(countVrWithSame)] = val                
-                if i == 5: #Kostnadsställe (Ks)
-                    cVrLine[colnames.ks + str(countVrWithSame)] = val
-                if i == 6 and countVrWithSame == 1: #Projnr
-                    cVrLine[colnames.projnr] = val
-                if i == 7 and countVrWithSame == 1: #Verifikationstext
-                    cVrLine[colnames.vertext] = val
-                if i == 8 and countVrWithSame == 1: #Transaktionsinfo
-                    cVrLine[colnames.traninf] = val
-                if i == 9: #Debet
-                    if val != '':
-                        totalSum += float(val.replace(',','.'))
-                    cVrLine[colnames.debet + str(countVrWithSame)] = val
-                if i == 10: #Kredit
-                    cVrLine[colnames.kredit + str(countVrWithSame)] = val
+            if not passedHeaders: # Data comes after header so read lines until we find header.
+                if row[0].find('Vern') != -1:
+                    passedHeaders = True
+            else:
+                for i, val in enumerate(row):
+                    if i == 0: #Vernum
+                        if val != cVrNumb:
+                            if numberOfVers != 0:
+                                write(totalSum, cVrLine, out)
+                            cVrNumb = val
+                            cVrLine = {}
+                            cVrLine[colnames.vernr] = val
+                            totalSum = 0
+                            countVrWithSame = 1
+                            numberOfVers += 1
+                        else:
+                            countVrWithSame += 1
+                    if i == 1 and countVrWithSame == 1: #Bokföringsdatum
+                        cVrLine[colnames.bok] = val
+                    if i == 2 and countVrWithSame == 1: #Registreringsdatum
+                        cVrLine[colnames.reg] = val
+                    if i == 3: #Konto
+                        cVrLine[colnames.konto + str(countVrWithSame)] = val
+                    if i == 4: #kontonamn
+                        cVrLine[colnames.kontonamn + str(countVrWithSame)] = val                
+                    if i == 5: #Kostnadsställe (Ks)
+                        cVrLine[colnames.ks + str(countVrWithSame)] = val
+                    if i == 6 and countVrWithSame == 1: #Projnr
+                        cVrLine[colnames.projnr] = val
+                    if i == 7 and countVrWithSame == 1: #Verifikationstext
+                        cVrLine[colnames.vertext] = val
+                    if i == 8 and countVrWithSame == 1: #Transaktionsinfo
+                        cVrLine[colnames.traninf] = val
+                    if i == 9: #Debet
+                        if val != '':
+                            totalSum += float(val.replace(',','.'))
+                        cVrLine[colnames.debet + str(countVrWithSame)] = val
+                    if i == 10: #Kredit
+                        cVrLine[colnames.kredit + str(countVrWithSame)] = val
         write(totalSum, cVrLine, out)
 
 def write(totalSum, cVrLine, out):
